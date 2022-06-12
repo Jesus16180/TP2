@@ -1,0 +1,24 @@
+c:\users\usuario\documents\visual studio 2012\Projects\TP2\TP2\bin\Debug\TP2.exe.config
+C:\Users\usuario\documents\visual studio 2012\Projects\TP2\TP2\bin\Debug\TP2.exe
+C:\Users\usuario\documents\visual studio 2012\Projects\TP2\TP2\bin\Debug\TP2.pdb
+C:\Users\usuario\documents\visual studio 2012\Projects\TP2\TP2\obj\Debug\TP2.csprojResolveAssemblyReference.cache
+C:\Users\usuario\documents\visual studio 2012\Projects\TP2\TP2\obj\Debug\TP2.Frmpal.resources
+C:\Users\usuario\documents\visual studio 2012\Projects\TP2\TP2\obj\Debug\TP2.FormArTra.resources
+C:\Users\usuario\documents\visual studio 2012\Projects\TP2\TP2\obj\Debug\TP2.FormEmp.resources
+C:\Users\usuario\documents\visual studio 2012\Projects\TP2\TP2\obj\Debug\TP2.FormJefe.resources
+C:\Users\usuario\documents\visual studio 2012\Projects\TP2\TP2\obj\Debug\TP2.Properties.Resources.resources
+C:\Users\usuario\documents\visual studio 2012\Projects\TP2\TP2\obj\Debug\TP2.csproj.GenerateResource.Cache
+C:\Users\usuario\documents\visual studio 2012\Projects\TP2\TP2\obj\Debug\TP2.exe
+C:\Users\usuario\documents\visual studio 2012\Projects\TP2\TP2\obj\Debug\TP2.pdb
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\bin\Debug\TP2.exe.config
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\TP2.exe
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\TP2.pdb
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\bin\Debug\TP2.exe
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\bin\Debug\TP2.pdb
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\TP2.csprojResolveAssemblyReference.cache
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\TP2.Frmpal.resources
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\TP2.FrmArTra.resources
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\TP2.FrmEmp.resources
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\TP2.FrmJefe.resources
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\TP2.Properties.Resources.resources
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\TP2.csproj.GenerateResource.Cache

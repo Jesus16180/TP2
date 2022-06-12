@@ -1,0 +1,80 @@
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\bin\Debug\TP2.exe.config
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\bin\Debug\TP2.exe
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\bin\Debug\TP2.pdb
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\bin\Debug\CapaDatos.dll
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\bin\Debug\CapaDatos.pdb
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\Interfaz.csprojResolveAssemblyReference.cache
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\TP2.Frmpal.resources
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\TP2.FrmArTra.resources
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\TP2.FrmEmp.resources
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\TP2.FrmJefe.resources
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\TP2.Properties.Resources.resources
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\Interfaz.csproj.GenerateResource.Cache
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\TP2.exe
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\TP2\obj\Debug\TP2.pdb
+F:\Archivero\7mo 1ra TECIP\P.I.D.S.C\TP2 (Mi fracaso)\TP2\bin\Debug\TP2.exe.config
+F:\Archivero\7mo 1ra TECIP\P.I.D.S.C\TP2 (Mi fracaso)\TP2\obj\Debug\TP2.exe
+F:\Archivero\7mo 1ra TECIP\P.I.D.S.C\TP2 (Mi fracaso)\TP2\obj\Debug\TP2.pdb
+C:\Users\USUARIO_7\Desktop\TP2 5\TP2\obj\Debug\Interfaz.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO_7\Desktop\TP2 5\TP2\obj\Debug\TP2.Cliente.resources
+C:\Users\USUARIO_7\Desktop\TP2 5\TP2\obj\Debug\TP2.Frmpal.resources
+C:\Users\USUARIO_7\Desktop\TP2 5\TP2\obj\Debug\TP2.FrmArTra.resources
+C:\Users\USUARIO_7\Desktop\TP2 5\TP2\obj\Debug\TP2.FrmEmp.resources
+C:\Users\USUARIO_7\Desktop\TP2 5\TP2\obj\Debug\TP2.FrmJefe.resources
+C:\Users\USUARIO_7\Desktop\TP2 5\TP2\obj\Debug\TP2.Properties.Resources.resources
+C:\Users\USUARIO_7\Desktop\TP2 5\TP2\obj\Debug\Interfaz.csproj.GenerateResource.Cache
+C:\Users\USUARIO_7\Desktop\TP2 5\TP2\bin\Debug\TP2.exe.config
+C:\Users\USUARIO_7\Desktop\TP2 5\TP2\bin\Debug\TP2.exe
+C:\Users\USUARIO_7\Desktop\TP2 5\TP2\bin\Debug\TP2.pdb
+C:\Users\USUARIO_7\Desktop\TP2 5\TP2\bin\Debug\CapaDatos.dll
+C:\Users\USUARIO_7\Desktop\TP2 5\TP2\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\USUARIO_7\Desktop\TP2 5\TP2\bin\Debug\CapaDatos.pdb
+C:\Users\USUARIO_7\Desktop\TP2 5\TP2\obj\Debug\TP2.exe
+C:\Users\USUARIO_7\Desktop\TP2 5\TP2\obj\Debug\TP2.pdb
+F:\TP2 5\TP2\bin\Debug\TP2.exe.config
+F:\TP2 5\TP2\obj\Debug\TP2.exe
+F:\TP2 5\TP2\obj\Debug\TP2.pdb
+F:\TP2 5\TP2\bin\Debug\TP2.exe
+F:\TP2 5\TP2\bin\Debug\TP2.pdb
+F:\TP2 5\TP2\bin\Debug\CapaDatos.dll
+F:\TP2 5\TP2\bin\Debug\CapaDatos.pdb
+F:\TP2 5\TP2\obj\Debug\Interfaz.csprojResolveAssemblyReference.cache
+F:\TP2 5\TP2\obj\Debug\TP2.FrmClint.resources
+F:\TP2 5\TP2\obj\Debug\TP2.Frmpal.resources
+F:\TP2 5\TP2\obj\Debug\TP2.FrmArTra.resources
+F:\TP2 5\TP2\obj\Debug\TP2.FrmEmp.resources
+F:\TP2 5\TP2\obj\Debug\TP2.FrmJefe.resources
+F:\TP2 5\TP2\obj\Debug\TP2.Properties.Resources.resources
+F:\TP2 5\TP2\obj\Debug\Interfaz.csproj.GenerateResource.Cache
+D:\jebus\OneDrive\Escritorio\TP2 5\TP2\bin\Debug\TP2.exe.config
+D:\jebus\OneDrive\Escritorio\TP2 5\TP2\obj\Debug\TP2.exe
+D:\jebus\OneDrive\Escritorio\TP2 5\TP2\obj\Debug\TP2.pdb
+D:\jebus\OneDrive\Escritorio\TP2 5\TP2\bin\Debug\TP2.exe
+D:\jebus\OneDrive\Escritorio\TP2 5\TP2\bin\Debug\TP2.pdb
+D:\jebus\OneDrive\Escritorio\TP2 5\TP2\bin\Debug\CapaDatos.dll
+D:\jebus\OneDrive\Escritorio\TP2 5\TP2\bin\Debug\CapaDatos.pdb
+D:\jebus\OneDrive\Escritorio\TP2 5\TP2\obj\Debug\Interfaz.csprojResolveAssemblyReference.cache
+D:\jebus\OneDrive\Escritorio\TP2 5\TP2\obj\Debug\TP2.FrmClint.resources
+D:\jebus\OneDrive\Escritorio\TP2 5\TP2\obj\Debug\TP2.Frmpal.resources
+D:\jebus\OneDrive\Escritorio\TP2 5\TP2\obj\Debug\TP2.FrmArTra.resources
+D:\jebus\OneDrive\Escritorio\TP2 5\TP2\obj\Debug\TP2.FrmEmp.resources
+D:\jebus\OneDrive\Escritorio\TP2 5\TP2\obj\Debug\TP2.FrmJefe.resources
+D:\jebus\OneDrive\Escritorio\TP2 5\TP2\obj\Debug\TP2.Properties.Resources.resources
+D:\jebus\OneDrive\Escritorio\TP2 5\TP2\obj\Debug\Interfaz.csproj.GenerateResource.Cache
+D:\jebus\OneDrive\Escritorio\TP2 5\TP2\bin\Debug\FontAwesome.Sharp.dll
+D:\jebus\TP2\TP2\bin\Debug\TP2.exe.config
+D:\jebus\TP2\TP2\obj\Debug\TP2.exe
+D:\jebus\TP2\TP2\obj\Debug\TP2.pdb
+D:\jebus\TP2\TP2\bin\Debug\TP2.exe
+D:\jebus\TP2\TP2\bin\Debug\TP2.pdb
+D:\jebus\TP2\TP2\bin\Debug\CapaDatos.dll
+D:\jebus\TP2\TP2\bin\Debug\FontAwesome.Sharp.dll
+D:\jebus\TP2\TP2\bin\Debug\CapaDatos.pdb
+D:\jebus\TP2\TP2\obj\Debug\Interfaz.csprojResolveAssemblyReference.cache
+D:\jebus\TP2\TP2\obj\Debug\TP2.FrmClint.resources
+D:\jebus\TP2\TP2\obj\Debug\TP2.Frmpal.resources
+D:\jebus\TP2\TP2\obj\Debug\TP2.FrmArTra.resources
+D:\jebus\TP2\TP2\obj\Debug\TP2.FrmEmp.resources
+D:\jebus\TP2\TP2\obj\Debug\TP2.FrmJefe.resources
+D:\jebus\TP2\TP2\obj\Debug\TP2.Properties.Resources.resources
+D:\jebus\TP2\TP2\obj\Debug\Interfaz.csproj.GenerateResource.Cache

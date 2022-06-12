@@ -1,0 +1,22 @@
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Setup\Escuela\E.E.S.T. N5 Año 7\P.I.D.S.C\TP2\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO_7\Desktop\TP2 5\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\USUARIO_7\Desktop\TP2 5\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\USUARIO_7\Desktop\TP2 5\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\USUARIO_7\Desktop\TP2 5\CapaDatos\obj\Debug\CapaDatos.pdb
+F:\TP2 5\CapaDatos\bin\Debug\CapaDatos.dll
+F:\TP2 5\CapaDatos\bin\Debug\CapaDatos.pdb
+F:\TP2 5\CapaDatos\obj\Debug\CapaDatos.dll
+F:\TP2 5\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\jebus\OneDrive\Escritorio\TP2 5\CapaDatos\bin\Debug\CapaDatos.dll
+D:\jebus\OneDrive\Escritorio\TP2 5\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\jebus\OneDrive\Escritorio\TP2 5\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+D:\jebus\OneDrive\Escritorio\TP2 5\CapaDatos\obj\Debug\CapaDatos.dll
+D:\jebus\OneDrive\Escritorio\TP2 5\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\jebus\OneDrive\Escritorio\TP2 5\CapaDatos\bin\Debug\FontAwesome.Sharp.dll
+D:\jebus\TP2\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+D:\jebus\TP2\CapaDatos\obj\Debug\CapaDatos.dll
+D:\jebus\TP2\CapaDatos\obj\Debug\CapaDatos.pdb
