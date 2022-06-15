@@ -43,5 +43,23 @@ namespace TP2
                 MessageBox.Show("Uno o más campos vacíos. Ingrese los datos correspondientes.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void bSubDatArTra_Click(object sender, EventArgs e)
+        {
+            if (tBArTra.Text.Intersect(charers).Count() > 0)
+            {
+                ArTra = new Area_trabajo(tBArTra.Text);
+                ArTra.Guardar();
+            }
+            else
+            {
+                MessageBox.Show("Uno o más campos vacíos. Ingrese los datos correspondientes.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void bVolverArTra_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

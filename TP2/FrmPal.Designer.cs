@@ -33,7 +33,7 @@
             this.bAgJef = new System.Windows.Forms.Button();
             this.bAgAr = new System.Windows.Forms.Button();
             this.bVD = new System.Windows.Forms.Button();
-            this.bBuscar = new System.Windows.Forms.Button();
+            this.bBuscar0 = new System.Windows.Forms.Button();
             this.dGVDatos = new System.Windows.Forms.DataGridView();
             this.ColumnID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnAp = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,7 +44,7 @@
             this.ColumnProj = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tBBuscar = new System.Windows.Forms.TextBox();
             this.btAgClint = new System.Windows.Forms.Button();
-            this.iconButton0 = new FontAwesome.Sharp.IconButton();
+            this.bBuscar = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.dGVDatos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,18 +96,18 @@
             this.bVD.UseVisualStyleBackColor = false;
             this.bVD.Click += new System.EventHandler(this.bVD_Click);
             // 
-            // bBuscar
+            // bBuscar0
             // 
-            this.bBuscar.BackColor = System.Drawing.SystemColors.Control;
-            this.bBuscar.BackgroundImage = global::TP2.Properties.Resources.search16;
-            this.bBuscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.bBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bBuscar.Location = new System.Drawing.Point(394, 100);
-            this.bBuscar.Name = "bBuscar";
-            this.bBuscar.Size = new System.Drawing.Size(40, 38);
-            this.bBuscar.TabIndex = 4;
-            this.bBuscar.UseVisualStyleBackColor = false;
-            this.bBuscar.Click += new System.EventHandler(this.bBuscar_Click);
+            this.bBuscar0.BackColor = System.Drawing.SystemColors.Control;
+            this.bBuscar0.BackgroundImage = global::TP2.Properties.Resources.search16;
+            this.bBuscar0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bBuscar0.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bBuscar0.Location = new System.Drawing.Point(394, 100);
+            this.bBuscar0.Name = "bBuscar0";
+            this.bBuscar0.Size = new System.Drawing.Size(40, 38);
+            this.bBuscar0.TabIndex = 4;
+            this.bBuscar0.UseVisualStyleBackColor = false;
+            this.bBuscar0.Click += new System.EventHandler(this.bBuscar_Click);
             // 
             // dGVDatos
             // 
@@ -188,16 +188,17 @@
             this.btAgClint.Text = "Agregar cliente";
             this.btAgClint.UseVisualStyleBackColor = false;
             // 
-            // iconButton0
+            // bBuscar
             // 
-            this.iconButton0.IconChar = FontAwesome.Sharp.IconChar.Glasses;
-            this.iconButton0.IconColor = System.Drawing.Color.Black;
-            this.iconButton0.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton0.Location = new System.Drawing.Point(414, 94);
-            this.iconButton0.Name = "iconButton0";
-            this.iconButton0.Size = new System.Drawing.Size(75, 48);
-            this.iconButton0.TabIndex = 8;
-            this.iconButton0.UseVisualStyleBackColor = true;
+            this.bBuscar.IconChar = FontAwesome.Sharp.IconChar.Glasses;
+            this.bBuscar.IconColor = System.Drawing.Color.Black;
+            this.bBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.bBuscar.Location = new System.Drawing.Point(414, 94);
+            this.bBuscar.Name = "bBuscar";
+            this.bBuscar.Size = new System.Drawing.Size(75, 48);
+            this.bBuscar.TabIndex = 8;
+            this.bBuscar.UseVisualStyleBackColor = true;
+            this.bBuscar.Click += new System.EventHandler(this.bBuscar_Click_1);
             // 
             // Frmpal
             // 
@@ -205,11 +206,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(1268, 464);
-            this.Controls.Add(this.iconButton0);
+            this.Controls.Add(this.bBuscar);
             this.Controls.Add(this.btAgClint);
             this.Controls.Add(this.tBBuscar);
             this.Controls.Add(this.dGVDatos);
-            this.Controls.Add(this.bBuscar);
+            this.Controls.Add(this.bBuscar0);
             this.Controls.Add(this.bVD);
             this.Controls.Add(this.bAgAr);
             this.Controls.Add(this.bAgJef);
@@ -231,7 +232,7 @@
         private System.Windows.Forms.Button bAgJef;
         private System.Windows.Forms.Button bAgAr;
         private System.Windows.Forms.Button bVD;
-        private System.Windows.Forms.Button bBuscar;
+        private System.Windows.Forms.Button bBuscar0;
         private System.Windows.Forms.DataGridView dGVDatos;
         private System.Windows.Forms.TextBox tBBuscar;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnID;
@@ -242,7 +243,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnClint;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnProj;
         private System.Windows.Forms.Button btAgClint;
-        private FontAwesome.Sharp.IconButton iconButton0;
+        private FontAwesome.Sharp.IconButton bBuscar;
     }
 }
 

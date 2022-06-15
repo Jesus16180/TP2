@@ -33,8 +33,8 @@
             this.bV = new System.Windows.Forms.Button();
             this.bSD = new System.Windows.Forms.Button();
             this.tBArTra = new System.Windows.Forms.TextBox();
-            this.iconButton5 = new FontAwesome.Sharp.IconButton();
-            this.iconButton6 = new FontAwesome.Sharp.IconButton();
+            this.bSubDatArTra = new FontAwesome.Sharp.IconButton();
+            this.bVolverArTra = new FontAwesome.Sharp.IconButton();
             this.SuspendLayout();
             // 
             // lbArTra
@@ -75,38 +75,40 @@
             this.tBArTra.Size = new System.Drawing.Size(187, 19);
             this.tBArTra.TabIndex = 7;
             // 
-            // iconButton5
+            // bSubDatArTra
             // 
-            this.iconButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
-            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
-            this.iconButton5.IconColor = System.Drawing.Color.Black;
-            this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton5.IconSize = 32;
-            this.iconButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton5.Location = new System.Drawing.Point(216, 58);
-            this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Size = new System.Drawing.Size(108, 44);
-            this.iconButton5.TabIndex = 31;
-            this.iconButton5.Text = "Cargar area de trabajo";
-            this.iconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton5.UseVisualStyleBackColor = true;
+            this.bSubDatArTra.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
+            this.bSubDatArTra.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
+            this.bSubDatArTra.IconColor = System.Drawing.Color.Black;
+            this.bSubDatArTra.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.bSubDatArTra.IconSize = 32;
+            this.bSubDatArTra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bSubDatArTra.Location = new System.Drawing.Point(216, 58);
+            this.bSubDatArTra.Name = "bSubDatArTra";
+            this.bSubDatArTra.Size = new System.Drawing.Size(108, 44);
+            this.bSubDatArTra.TabIndex = 31;
+            this.bSubDatArTra.Text = "Cargar area de trabajo";
+            this.bSubDatArTra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bSubDatArTra.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bSubDatArTra.UseVisualStyleBackColor = true;
+            this.bSubDatArTra.Click += new System.EventHandler(this.bSubDatArTra_Click);
             // 
-            // iconButton6
+            // bVolverArTra
             // 
-            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.ArrowLeft;
-            this.iconButton6.IconColor = System.Drawing.Color.Black;
-            this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton6.IconSize = 32;
-            this.iconButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton6.Location = new System.Drawing.Point(70, 52);
-            this.iconButton6.Name = "iconButton6";
-            this.iconButton6.Size = new System.Drawing.Size(98, 44);
-            this.iconButton6.TabIndex = 32;
-            this.iconButton6.Text = "Volver";
-            this.iconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton6.UseVisualStyleBackColor = true;
+            this.bVolverArTra.IconChar = FontAwesome.Sharp.IconChar.ArrowLeft;
+            this.bVolverArTra.IconColor = System.Drawing.Color.Black;
+            this.bVolverArTra.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.bVolverArTra.IconSize = 32;
+            this.bVolverArTra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bVolverArTra.Location = new System.Drawing.Point(70, 52);
+            this.bVolverArTra.Name = "bVolverArTra";
+            this.bVolverArTra.Size = new System.Drawing.Size(98, 44);
+            this.bVolverArTra.TabIndex = 32;
+            this.bVolverArTra.Text = "Volver";
+            this.bVolverArTra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bVolverArTra.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bVolverArTra.UseVisualStyleBackColor = true;
+            this.bVolverArTra.Click += new System.EventHandler(this.bVolverArTra_Click);
             // 
             // FrmArTra
             // 
@@ -114,8 +116,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(407, 157);
-            this.Controls.Add(this.iconButton6);
-            this.Controls.Add(this.iconButton5);
+            this.Controls.Add(this.bVolverArTra);
+            this.Controls.Add(this.bSubDatArTra);
             this.Controls.Add(this.tBArTra);
             this.Controls.Add(this.bSD);
             this.Controls.Add(this.bV);
@@ -135,7 +137,7 @@
         private System.Windows.Forms.Button bV;
         private System.Windows.Forms.Button bSD;
         private System.Windows.Forms.TextBox tBArTra;
-        private FontAwesome.Sharp.IconButton iconButton5;
-        private FontAwesome.Sharp.IconButton iconButton6;
+        private FontAwesome.Sharp.IconButton bSubDatArTra;
+        private FontAwesome.Sharp.IconButton bVolverArTra;
     }
 }

@@ -65,5 +65,11 @@ namespace TP2
         {
             
         }
+
+        private void bBuscar_Click_1(object sender, EventArgs e)
+        {
+            dGVDatos.DataSource = Empleado.Buscar();
+            dGVDatos.DataSource = Jefe.Buscar();
+        }
     }
 }

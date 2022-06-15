@@ -59,5 +59,27 @@ namespace TP2
             idprint = id.ToString("D8");
             lbIDEmp.Text = idprint;
         }
+
+        private void bSubDatEmple_Click(object sender, EventArgs e)
+        {
+            if ((tBNom.Text.Intersect(charers).Count() > 0) || (tBAp.Text.Intersect(charers).Count() > 0)
+                || (tBCUIL.Text.Intersect(charers).Count() > 0) || (tBTel.Text.Intersect(charers).Count() > 0) ||
+                (cBArTra.Text.Intersect(charers).Count() > 0) || (cBIDJef.Text.Intersect(charers).Count() > 0))
+            {
+                ;
+                Emp = new Empleado(lbIDEmp.Text, tBNom.Text, tBAp.Text, tBCUIL.Text, tBTel.Text, cBArTra.Text, cBIDJef.Text);
+                Emp.Guardar();
+                lbIDUpdate();
+            }
+            else
+            {
+                MessageBox.Show("Uno o más campos vacíos. Ingrese los datos correspondientes.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void bVolverEmple_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
         }
     }

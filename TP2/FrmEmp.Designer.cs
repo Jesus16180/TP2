@@ -45,8 +45,8 @@
             this.lbIDJ = new System.Windows.Forms.Label();
             this.cBIDJef = new System.Windows.Forms.ComboBox();
             this.bV = new System.Windows.Forms.Button();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
+            this.bSubDatEmple = new FontAwesome.Sharp.IconButton();
+            this.bVolverEmple = new FontAwesome.Sharp.IconButton();
             this.SuspendLayout();
             // 
             // lbID
@@ -207,37 +207,39 @@
             this.bV.UseVisualStyleBackColor = false;
             this.bV.Click += new System.EventHandler(this.bV_Click);
             // 
-            // iconButton3
+            // bSubDatEmple
             // 
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
-            this.iconButton3.IconColor = System.Drawing.Color.Black;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.IconSize = 32;
-            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(236, 318);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(98, 44);
-            this.iconButton3.TabIndex = 31;
-            this.iconButton3.Text = "Cargar empleado";
-            this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton3.UseVisualStyleBackColor = true;
+            this.bSubDatEmple.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
+            this.bSubDatEmple.IconColor = System.Drawing.Color.Black;
+            this.bSubDatEmple.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.bSubDatEmple.IconSize = 32;
+            this.bSubDatEmple.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bSubDatEmple.Location = new System.Drawing.Point(236, 318);
+            this.bSubDatEmple.Name = "bSubDatEmple";
+            this.bSubDatEmple.Size = new System.Drawing.Size(98, 44);
+            this.bSubDatEmple.TabIndex = 31;
+            this.bSubDatEmple.Text = "Cargar empleado";
+            this.bSubDatEmple.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bSubDatEmple.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bSubDatEmple.UseVisualStyleBackColor = true;
+            this.bSubDatEmple.Click += new System.EventHandler(this.bSubDatEmple_Click);
             // 
-            // iconButton4
+            // bVolverEmple
             // 
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.ArrowLeft;
-            this.iconButton4.IconColor = System.Drawing.Color.Black;
-            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton4.IconSize = 32;
-            this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.Location = new System.Drawing.Point(50, 320);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Size = new System.Drawing.Size(98, 44);
-            this.iconButton4.TabIndex = 32;
-            this.iconButton4.Text = "Volver";
-            this.iconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton4.UseVisualStyleBackColor = true;
+            this.bVolverEmple.IconChar = FontAwesome.Sharp.IconChar.ArrowLeft;
+            this.bVolverEmple.IconColor = System.Drawing.Color.Black;
+            this.bVolverEmple.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.bVolverEmple.IconSize = 32;
+            this.bVolverEmple.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bVolverEmple.Location = new System.Drawing.Point(50, 320);
+            this.bVolverEmple.Name = "bVolverEmple";
+            this.bVolverEmple.Size = new System.Drawing.Size(98, 44);
+            this.bVolverEmple.TabIndex = 32;
+            this.bVolverEmple.Text = "Volver";
+            this.bVolverEmple.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bVolverEmple.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bVolverEmple.UseVisualStyleBackColor = true;
+            this.bVolverEmple.Click += new System.EventHandler(this.bVolverEmple_Click);
             // 
             // FrmEmp
             // 
@@ -245,8 +247,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(419, 429);
-            this.Controls.Add(this.iconButton4);
-            this.Controls.Add(this.iconButton3);
+            this.Controls.Add(this.bVolverEmple);
+            this.Controls.Add(this.bSubDatEmple);
             this.Controls.Add(this.bV);
             this.Controls.Add(this.cBIDJef);
             this.Controls.Add(this.lbIDJ);
@@ -291,7 +293,7 @@
         private System.Windows.Forms.Label lbIDJ;
         private System.Windows.Forms.ComboBox cBIDJef;
         private System.Windows.Forms.Button bV;
-        private FontAwesome.Sharp.IconButton iconButton3;
-        private FontAwesome.Sharp.IconButton iconButton4;
+        private FontAwesome.Sharp.IconButton bSubDatEmple;
+        private FontAwesome.Sharp.IconButton bVolverEmple;
     }
 }

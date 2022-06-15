@@ -21,5 +21,10 @@ namespace TP2
         {
            
         }
+
+        private void bSubDatCliente_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

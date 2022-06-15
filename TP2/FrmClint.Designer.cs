@@ -45,8 +45,8 @@
             this.lbJef = new System.Windows.Forms.Label();
             this.lbEstDate = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.iconButton7 = new FontAwesome.Sharp.IconButton();
-            this.iconButton8 = new FontAwesome.Sharp.IconButton();
+            this.bSubDatCliente = new FontAwesome.Sharp.IconButton();
+            this.bVolverCliente = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -184,37 +184,38 @@
             this.numericUpDown1.Size = new System.Drawing.Size(150, 20);
             this.numericUpDown1.TabIndex = 17;
             // 
-            // iconButton7
+            // bSubDatCliente
             // 
-            this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
-            this.iconButton7.IconColor = System.Drawing.Color.Black;
-            this.iconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton7.IconSize = 32;
-            this.iconButton7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton7.Location = new System.Drawing.Point(345, 206);
-            this.iconButton7.Name = "iconButton7";
-            this.iconButton7.Size = new System.Drawing.Size(98, 44);
-            this.iconButton7.TabIndex = 32;
-            this.iconButton7.Text = "Cargar cliente";
-            this.iconButton7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton7.UseVisualStyleBackColor = true;
+            this.bSubDatCliente.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
+            this.bSubDatCliente.IconColor = System.Drawing.Color.Black;
+            this.bSubDatCliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.bSubDatCliente.IconSize = 32;
+            this.bSubDatCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bSubDatCliente.Location = new System.Drawing.Point(345, 206);
+            this.bSubDatCliente.Name = "bSubDatCliente";
+            this.bSubDatCliente.Size = new System.Drawing.Size(98, 44);
+            this.bSubDatCliente.TabIndex = 32;
+            this.bSubDatCliente.Text = "Cargar cliente";
+            this.bSubDatCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bSubDatCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bSubDatCliente.UseVisualStyleBackColor = true;
+            this.bSubDatCliente.Click += new System.EventHandler(this.bSubDatCliente_Click);
             // 
-            // iconButton8
+            // bVolverCliente
             // 
-            this.iconButton8.IconChar = FontAwesome.Sharp.IconChar.ArrowLeft;
-            this.iconButton8.IconColor = System.Drawing.Color.Black;
-            this.iconButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton8.IconSize = 32;
-            this.iconButton8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton8.Location = new System.Drawing.Point(60, 184);
-            this.iconButton8.Name = "iconButton8";
-            this.iconButton8.Size = new System.Drawing.Size(98, 44);
-            this.iconButton8.TabIndex = 33;
-            this.iconButton8.Text = "Volver";
-            this.iconButton8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton8.UseVisualStyleBackColor = true;
+            this.bVolverCliente.IconChar = FontAwesome.Sharp.IconChar.ArrowLeft;
+            this.bVolverCliente.IconColor = System.Drawing.Color.Black;
+            this.bVolverCliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.bVolverCliente.IconSize = 32;
+            this.bVolverCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bVolverCliente.Location = new System.Drawing.Point(60, 184);
+            this.bVolverCliente.Name = "bVolverCliente";
+            this.bVolverCliente.Size = new System.Drawing.Size(98, 44);
+            this.bVolverCliente.TabIndex = 33;
+            this.bVolverCliente.Text = "Volver";
+            this.bVolverCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bVolverCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bVolverCliente.UseVisualStyleBackColor = true;
             // 
             // FrmClint
             // 
@@ -222,8 +223,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(608, 281);
-            this.Controls.Add(this.iconButton8);
-            this.Controls.Add(this.iconButton7);
+            this.Controls.Add(this.bVolverCliente);
+            this.Controls.Add(this.bSubDatCliente);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.lbEstDate);
             this.Controls.Add(this.lbJef);
@@ -268,7 +269,7 @@
         private System.Windows.Forms.Label lbJef;
         private System.Windows.Forms.Label lbEstDate;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private FontAwesome.Sharp.IconButton iconButton7;
-        private FontAwesome.Sharp.IconButton iconButton8;
+        private FontAwesome.Sharp.IconButton bSubDatCliente;
+        private FontAwesome.Sharp.IconButton bVolverCliente;
     }
 }

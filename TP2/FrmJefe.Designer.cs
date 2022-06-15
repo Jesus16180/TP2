@@ -43,8 +43,8 @@
             this.tBNom = new System.Windows.Forms.TextBox();
             this.lbID = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
+            this.bSubDatJefe = new FontAwesome.Sharp.IconButton();
+            this.bVolverJefe = new FontAwesome.Sharp.IconButton();
             this.SuspendLayout();
             // 
             // tBCUIL
@@ -183,37 +183,39 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // iconButton1
+            // bSubDatJefe
             // 
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
-            this.iconButton1.IconColor = System.Drawing.Color.Black;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 32;
-            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(219, 264);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(98, 44);
-            this.iconButton1.TabIndex = 29;
-            this.iconButton1.Text = "Cargar jefe";
-            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton1.UseVisualStyleBackColor = true;
+            this.bSubDatJefe.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
+            this.bSubDatJefe.IconColor = System.Drawing.Color.Black;
+            this.bSubDatJefe.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.bSubDatJefe.IconSize = 32;
+            this.bSubDatJefe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bSubDatJefe.Location = new System.Drawing.Point(219, 264);
+            this.bSubDatJefe.Name = "bSubDatJefe";
+            this.bSubDatJefe.Size = new System.Drawing.Size(98, 44);
+            this.bSubDatJefe.TabIndex = 29;
+            this.bSubDatJefe.Text = "Cargar jefe";
+            this.bSubDatJefe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bSubDatJefe.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bSubDatJefe.UseVisualStyleBackColor = true;
+            this.bSubDatJefe.Click += new System.EventHandler(this.bSubDatJefe_Click);
             // 
-            // iconButton2
+            // bVolverJefe
             // 
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.ArrowLeft;
-            this.iconButton2.IconColor = System.Drawing.Color.Black;
-            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.IconSize = 32;
-            this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.Location = new System.Drawing.Point(37, 269);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(98, 44);
-            this.iconButton2.TabIndex = 30;
-            this.iconButton2.Text = "Volver";
-            this.iconButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton2.UseVisualStyleBackColor = true;
+            this.bVolverJefe.IconChar = FontAwesome.Sharp.IconChar.ArrowLeft;
+            this.bVolverJefe.IconColor = System.Drawing.Color.Black;
+            this.bVolverJefe.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.bVolverJefe.IconSize = 32;
+            this.bVolverJefe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bVolverJefe.Location = new System.Drawing.Point(37, 269);
+            this.bVolverJefe.Name = "bVolverJefe";
+            this.bVolverJefe.Size = new System.Drawing.Size(98, 44);
+            this.bVolverJefe.TabIndex = 30;
+            this.bVolverJefe.Text = "Volver";
+            this.bVolverJefe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bVolverJefe.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bVolverJefe.UseVisualStyleBackColor = true;
+            this.bVolverJefe.Click += new System.EventHandler(this.bVolverJefe_Click);
             // 
             // FrmJefe
             // 
@@ -221,8 +223,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(381, 374);
-            this.Controls.Add(this.iconButton2);
-            this.Controls.Add(this.iconButton1);
+            this.Controls.Add(this.bVolverJefe);
+            this.Controls.Add(this.bSubDatJefe);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tBCUIL);
             this.Controls.Add(this.tBAp);
@@ -263,7 +265,7 @@
         private System.Windows.Forms.TextBox tBNom;
         private System.Windows.Forms.Label lbID;
         private System.Windows.Forms.Button button1;
-        private FontAwesome.Sharp.IconButton iconButton1;
-        private FontAwesome.Sharp.IconButton iconButton2;
+        private FontAwesome.Sharp.IconButton bSubDatJefe;
+        private FontAwesome.Sharp.IconButton bVolverJefe;
     }
 }
