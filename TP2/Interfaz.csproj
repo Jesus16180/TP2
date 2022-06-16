@@ -56,11 +56,11 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmClint.cs">
+    <Compile Include="FrmProy.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmClint.Designer.cs">
-      <DependentUpon>FrmClint.cs</DependentUpon>
+    <Compile Include="FrmProy.Designer.cs">
+      <DependentUpon>FrmProy.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmPal.cs">
       <SubType>Form</SubType>
@@ -88,8 +88,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmClint.resx">
-      <DependentUpon>FrmClint.cs</DependentUpon>
+    <EmbeddedResource Include="FrmProy.resx">
+      <DependentUpon>FrmProy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPal.resx">
       <DependentUpon>FrmPal.cs</DependentUpon>
@@ -134,6 +134,9 @@
       <Project>{ae625217-742e-4245-a1da-e3583fcd979c}</Project>
       <Name>CapaDatos</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\ythtfh.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

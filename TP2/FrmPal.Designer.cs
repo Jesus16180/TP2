@@ -33,7 +33,6 @@
             this.bAgJef = new System.Windows.Forms.Button();
             this.bAgAr = new System.Windows.Forms.Button();
             this.bVD = new System.Windows.Forms.Button();
-            this.bBuscar0 = new System.Windows.Forms.Button();
             this.dGVDatos = new System.Windows.Forms.DataGridView();
             this.ColumnID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnAp = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,17 +43,18 @@
             this.ColumnProj = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tBBuscar = new System.Windows.Forms.TextBox();
             this.btAgClint = new System.Windows.Forms.Button();
-            this.bBuscar = new FontAwesome.Sharp.IconButton();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dGVDatos)).BeginInit();
             this.SuspendLayout();
             // 
             // bAgEm
             // 
             this.bAgEm.BackColor = System.Drawing.SystemColors.Control;
-            this.bAgEm.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bAgEm.Location = new System.Drawing.Point(80, 28);
+            this.bAgEm.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bAgEm.Location = new System.Drawing.Point(101, 26);
+            this.bAgEm.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.bAgEm.Name = "bAgEm";
-            this.bAgEm.Size = new System.Drawing.Size(160, 38);
+            this.bAgEm.Size = new System.Drawing.Size(187, 35);
             this.bAgEm.TabIndex = 0;
             this.bAgEm.Text = "Agregar empleado";
             this.bAgEm.UseVisualStyleBackColor = false;
@@ -63,10 +63,11 @@
             // bAgJef
             // 
             this.bAgJef.BackColor = System.Drawing.SystemColors.Control;
-            this.bAgJef.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bAgJef.Location = new System.Drawing.Point(549, 28);
+            this.bAgJef.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bAgJef.Location = new System.Drawing.Point(648, 26);
+            this.bAgJef.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.bAgJef.Name = "bAgJef";
-            this.bAgJef.Size = new System.Drawing.Size(120, 38);
+            this.bAgJef.Size = new System.Drawing.Size(140, 35);
             this.bAgJef.TabIndex = 1;
             this.bAgJef.Text = "Agregar jefe";
             this.bAgJef.UseVisualStyleBackColor = false;
@@ -75,10 +76,11 @@
             // bAgAr
             // 
             this.bAgAr.BackColor = System.Drawing.SystemColors.Control;
-            this.bAgAr.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bAgAr.Location = new System.Drawing.Point(334, 28);
+            this.bAgAr.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bAgAr.Location = new System.Drawing.Point(398, 26);
+            this.bAgAr.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.bAgAr.Name = "bAgAr";
-            this.bAgAr.Size = new System.Drawing.Size(120, 38);
+            this.bAgAr.Size = new System.Drawing.Size(140, 35);
             this.bAgAr.TabIndex = 2;
             this.bAgAr.Text = "Agregar área";
             this.bAgAr.UseVisualStyleBackColor = false;
@@ -87,27 +89,15 @@
             // bVD
             // 
             this.bVD.BackColor = System.Drawing.SystemColors.Control;
-            this.bVD.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bVD.Location = new System.Drawing.Point(549, 100);
+            this.bVD.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bVD.Location = new System.Drawing.Point(648, 100);
+            this.bVD.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.bVD.Name = "bVD";
-            this.bVD.Size = new System.Drawing.Size(120, 38);
+            this.bVD.Size = new System.Drawing.Size(140, 35);
             this.bVD.TabIndex = 3;
             this.bVD.Text = "Ver datos";
             this.bVD.UseVisualStyleBackColor = false;
             this.bVD.Click += new System.EventHandler(this.bVD_Click);
-            // 
-            // bBuscar0
-            // 
-            this.bBuscar0.BackColor = System.Drawing.SystemColors.Control;
-            this.bBuscar0.BackgroundImage = global::TP2.Properties.Resources.search16;
-            this.bBuscar0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.bBuscar0.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bBuscar0.Location = new System.Drawing.Point(394, 100);
-            this.bBuscar0.Name = "bBuscar0";
-            this.bBuscar0.Size = new System.Drawing.Size(40, 38);
-            this.bBuscar0.TabIndex = 4;
-            this.bBuscar0.UseVisualStyleBackColor = false;
-            this.bBuscar0.Click += new System.EventHandler(this.bBuscar_Click);
             // 
             // dGVDatos
             // 
@@ -121,10 +111,11 @@
             this.ColumnArTra,
             this.ColumnClint,
             this.ColumnProj});
-            this.dGVDatos.Location = new System.Drawing.Point(21, 161);
+            this.dGVDatos.Location = new System.Drawing.Point(13, 162);
+            this.dGVDatos.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.dGVDatos.Name = "dGVDatos";
             this.dGVDatos.RowTemplate.Height = 24;
-            this.dGVDatos.Size = new System.Drawing.Size(1235, 281);
+            this.dGVDatos.Size = new System.Drawing.Size(1233, 283);
             this.dGVDatos.TabIndex = 5;
             // 
             // ColumnID
@@ -172,51 +163,52 @@
             // tBBuscar
             // 
             this.tBBuscar.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.tBBuscar.Location = new System.Drawing.Point(80, 109);
+            this.tBBuscar.Location = new System.Drawing.Point(101, 108);
+            this.tBBuscar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tBBuscar.Name = "tBBuscar";
-            this.tBBuscar.Size = new System.Drawing.Size(300, 19);
+            this.tBBuscar.Size = new System.Drawing.Size(349, 20);
             this.tBBuscar.TabIndex = 6;
             // 
             // btAgClint
             // 
             this.btAgClint.BackColor = System.Drawing.SystemColors.Control;
-            this.btAgClint.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btAgClint.Location = new System.Drawing.Point(757, 28);
+            this.btAgClint.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btAgClint.Location = new System.Drawing.Point(891, 26);
+            this.btAgClint.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btAgClint.Name = "btAgClint";
-            this.btAgClint.Size = new System.Drawing.Size(120, 38);
+            this.btAgClint.Size = new System.Drawing.Size(140, 35);
             this.btAgClint.TabIndex = 7;
             this.btAgClint.Text = "Agregar cliente";
             this.btAgClint.UseVisualStyleBackColor = false;
+            this.btAgClint.Click += new System.EventHandler(this.btAgClint_Click);
             // 
-            // bBuscar
+            // button1
             // 
-            this.bBuscar.IconChar = FontAwesome.Sharp.IconChar.Glasses;
-            this.bBuscar.IconColor = System.Drawing.Color.Black;
-            this.bBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.bBuscar.Location = new System.Drawing.Point(414, 94);
-            this.bBuscar.Name = "bBuscar";
-            this.bBuscar.Size = new System.Drawing.Size(75, 48);
-            this.bBuscar.TabIndex = 8;
-            this.bBuscar.UseVisualStyleBackColor = true;
-            this.bBuscar.Click += new System.EventHandler(this.bBuscar_Click_1);
+            this.button1.Image = global::TP2.Properties.Resources.ythtfh;
+            this.button1.Location = new System.Drawing.Point(457, 104);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(35, 27);
+            this.button1.TabIndex = 8;
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Frmpal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.ClientSize = new System.Drawing.Size(1268, 464);
-            this.Controls.Add(this.bBuscar);
+            this.ClientSize = new System.Drawing.Size(1259, 457);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btAgClint);
             this.Controls.Add(this.tBBuscar);
             this.Controls.Add(this.dGVDatos);
-            this.Controls.Add(this.bBuscar0);
             this.Controls.Add(this.bVD);
             this.Controls.Add(this.bAgAr);
             this.Controls.Add(this.bAgJef);
             this.Controls.Add(this.bAgEm);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Frmpal";
             this.Text = "Empresa";
             this.Load += new System.EventHandler(this.Frmpal_Load);
@@ -232,7 +224,6 @@
         private System.Windows.Forms.Button bAgJef;
         private System.Windows.Forms.Button bAgAr;
         private System.Windows.Forms.Button bVD;
-        private System.Windows.Forms.Button bBuscar0;
         private System.Windows.Forms.DataGridView dGVDatos;
         private System.Windows.Forms.TextBox tBBuscar;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnID;
@@ -243,7 +234,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnClint;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnProj;
         private System.Windows.Forms.Button btAgClint;
-        private FontAwesome.Sharp.IconButton bBuscar;
+        private System.Windows.Forms.Button button1;
     }
 }
 

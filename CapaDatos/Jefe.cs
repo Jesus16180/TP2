@@ -81,5 +81,21 @@ namespace CapaDatos
         {
             return listjefe;
         }
+        public static List<Jefe> Buscar(string palabra)
+        {
+            List<Jefe> resultado = new List<Jefe>();
+            foreach (Jefe i in listjefe)
+            {
+                if (i.id.Contains(palabra)||i.nombre.Contains(palabra)||i.apellido.Contains(palabra))
+                {
+                    resultado.Add(i);
+                }
+                else
+                {
+
+                }
+            }
+            return resultado;
+        }
     }
 }

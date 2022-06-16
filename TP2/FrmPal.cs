@@ -16,6 +16,7 @@ namespace TP2
         FrmEmp FEmp = new FrmEmp();
         FrmJefe FJf = new FrmJefe();
         FrmArTra FAT = new FrmArTra();
+        FrmProy FClint = new FrmProy();
 
         Empleado Emp = new Empleado();
 
@@ -42,23 +43,9 @@ namespace TP2
 
         private void Frmpal_Load(object sender, EventArgs e)
         {
-            string data = Emp.ExactData();
-            char delim = ',';
-            string[] vallues = data.Split(delim);
+            dGVDatos.DataSource = null;
+            
 
-            int n = dGVDatos.Rows.Add();
- 
-            dGVDatos.Rows[n].Cells[0].Value = vallues[0];
-            dGVDatos.Rows[n].Cells[1].Value = vallues[1];
-            dGVDatos.Rows[n].Cells[2].Value = vallues[2];
-            dGVDatos.Rows[n].Cells[3].Value = vallues[3];
-            dGVDatos.Rows[n].Cells[4].Value = vallues[4];
-        }
-
-        private void bBuscar_Click(object sender, EventArgs e)
-        {
-            dGVDatos.DataSource = Empleado.Buscar();
-            dGVDatos.DataSource = Jefe.Buscar();
         }
 
         private void bVD_Click(object sender, EventArgs e)
@@ -70,6 +57,11 @@ namespace TP2
         {
             dGVDatos.DataSource = Empleado.Buscar();
             dGVDatos.DataSource = Jefe.Buscar();
+        }
+
+        private void btAgClint_Click(object sender, EventArgs e)
+        {
+            FClint.ShowDialog();
         }
     }
 }

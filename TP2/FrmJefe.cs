@@ -1,20 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
+﻿using CapaDatos;
+using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using CapaDatos;
 
 namespace TP2
 {
     public partial class FrmJefe : Form
     {
         Jefe Jef;
-        Area_trabajo ArTra;
+        Area_trabajo ArTra = new Area_trabajo();
 
         Area_trabajo AT = new Area_trabajo();
 

@@ -30,100 +30,93 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmArTra));
             this.lbArTra = new System.Windows.Forms.Label();
-            this.bV = new System.Windows.Forms.Button();
-            this.bSD = new System.Windows.Forms.Button();
             this.tBArTra = new System.Windows.Forms.TextBox();
             this.bSubDatArTra = new FontAwesome.Sharp.IconButton();
             this.bVolverArTra = new FontAwesome.Sharp.IconButton();
+            this.lBArTras = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // lbArTra
             // 
             this.lbArTra.AutoSize = true;
-            this.lbArTra.Location = new System.Drawing.Point(35, 36);
+            this.lbArTra.Location = new System.Drawing.Point(19, 37);
+            this.lbArTra.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbArTra.Name = "lbArTra";
-            this.lbArTra.Size = new System.Drawing.Size(82, 13);
+            this.lbArTra.Size = new System.Drawing.Size(95, 12);
             this.lbArTra.TabIndex = 0;
             this.lbArTra.Text = "Área de trabajo:";
             // 
-            // bV
-            // 
-            this.bV.BackColor = System.Drawing.SystemColors.Control;
-            this.bV.Location = new System.Drawing.Point(70, 97);
-            this.bV.Name = "bV";
-            this.bV.Size = new System.Drawing.Size(70, 28);
-            this.bV.TabIndex = 5;
-            this.bV.Text = "Volver";
-            this.bV.UseVisualStyleBackColor = false;
-            this.bV.Click += new System.EventHandler(this.bV_Click);
-            // 
-            // bSD
-            // 
-            this.bSD.BackColor = System.Drawing.SystemColors.Control;
-            this.bSD.Location = new System.Drawing.Point(204, 95);
-            this.bSD.Name = "bSD";
-            this.bSD.Size = new System.Drawing.Size(120, 30);
-            this.bSD.TabIndex = 6;
-            this.bSD.Text = "Subir datos";
-            this.bSD.UseVisualStyleBackColor = false;
-            this.bSD.Click += new System.EventHandler(this.bSD_Click);
-            // 
             // tBArTra
             // 
-            this.tBArTra.Location = new System.Drawing.Point(173, 33);
+            this.tBArTra.Location = new System.Drawing.Point(122, 34);
+            this.tBArTra.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tBArTra.Name = "tBArTra";
-            this.tBArTra.Size = new System.Drawing.Size(187, 19);
+            this.tBArTra.Size = new System.Drawing.Size(238, 20);
             this.tBArTra.TabIndex = 7;
             // 
             // bSubDatArTra
             // 
-            this.bSubDatArTra.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
+            this.bSubDatArTra.BackColor = System.Drawing.SystemColors.Control;
+            this.bSubDatArTra.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bSubDatArTra.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
             this.bSubDatArTra.IconColor = System.Drawing.Color.Black;
             this.bSubDatArTra.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.bSubDatArTra.IconSize = 32;
             this.bSubDatArTra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bSubDatArTra.Location = new System.Drawing.Point(216, 58);
+            this.bSubDatArTra.Location = new System.Drawing.Point(164, 122);
+            this.bSubDatArTra.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.bSubDatArTra.Name = "bSubDatArTra";
-            this.bSubDatArTra.Size = new System.Drawing.Size(108, 44);
+            this.bSubDatArTra.Size = new System.Drawing.Size(196, 41);
             this.bSubDatArTra.TabIndex = 31;
             this.bSubDatArTra.Text = "Cargar area de trabajo";
             this.bSubDatArTra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bSubDatArTra.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.bSubDatArTra.UseVisualStyleBackColor = true;
+            this.bSubDatArTra.UseVisualStyleBackColor = false;
             this.bSubDatArTra.Click += new System.EventHandler(this.bSubDatArTra_Click);
             // 
             // bVolverArTra
             // 
+            this.bVolverArTra.BackColor = System.Drawing.SystemColors.Control;
+            this.bVolverArTra.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bVolverArTra.IconChar = FontAwesome.Sharp.IconChar.ArrowLeft;
             this.bVolverArTra.IconColor = System.Drawing.Color.Black;
             this.bVolverArTra.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.bVolverArTra.IconSize = 32;
             this.bVolverArTra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bVolverArTra.Location = new System.Drawing.Point(70, 52);
+            this.bVolverArTra.Location = new System.Drawing.Point(21, 122);
+            this.bVolverArTra.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.bVolverArTra.Name = "bVolverArTra";
-            this.bVolverArTra.Size = new System.Drawing.Size(98, 44);
+            this.bVolverArTra.Size = new System.Drawing.Size(100, 40);
             this.bVolverArTra.TabIndex = 32;
             this.bVolverArTra.Text = "Volver";
             this.bVolverArTra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bVolverArTra.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.bVolverArTra.UseVisualStyleBackColor = true;
+            this.bVolverArTra.UseVisualStyleBackColor = false;
             this.bVolverArTra.Click += new System.EventHandler(this.bVolverArTra_Click);
+            // 
+            // lBArTras
+            // 
+            this.lBArTras.FormattingEnabled = true;
+            this.lBArTras.ItemHeight = 12;
+            this.lBArTras.Location = new System.Drawing.Point(390, 34);
+            this.lBArTras.Name = "lBArTras";
+            this.lBArTras.Size = new System.Drawing.Size(230, 148);
+            this.lBArTras.TabIndex = 33;
             // 
             // FrmArTra
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.ClientSize = new System.Drawing.Size(407, 157);
+            this.ClientSize = new System.Drawing.Size(626, 197);
+            this.Controls.Add(this.lBArTras);
             this.Controls.Add(this.bVolverArTra);
             this.Controls.Add(this.bSubDatArTra);
             this.Controls.Add(this.tBArTra);
-            this.Controls.Add(this.bSD);
-            this.Controls.Add(this.bV);
             this.Controls.Add(this.lbArTra);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "FrmArTra";
             this.Text = "Área de trabajo";
             this.ResumeLayout(false);
@@ -134,10 +127,9 @@
         #endregion
 
         private System.Windows.Forms.Label lbArTra;
-        private System.Windows.Forms.Button bV;
-        private System.Windows.Forms.Button bSD;
         private System.Windows.Forms.TextBox tBArTra;
         private FontAwesome.Sharp.IconButton bSubDatArTra;
         private FontAwesome.Sharp.IconButton bVolverArTra;
+        private System.Windows.Forms.ListBox lBArTras;
     }
 }

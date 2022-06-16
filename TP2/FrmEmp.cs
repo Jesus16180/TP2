@@ -40,7 +40,7 @@ namespace TP2
             if ((tBNom.Text.Intersect(charers).Count() > 0) || (tBAp.Text.Intersect(charers).Count() > 0) 
                 || (tBCUIL.Text.Intersect(charers).Count() > 0) || (tBTel.Text.Intersect(charers).Count() > 0)||
                 (cBArTra.Text.Intersect(charers).Count() > 0) || (cBIDJef.Text.Intersect(charers).Count() > 0))
-            {;
+            {
                 Emp = new Empleado(lbIDEmp.Text, tBNom.Text, tBAp.Text, tBCUIL.Text, tBTel.Text, cBArTra.Text, cBIDJef.Text);
                 Emp.Guardar();
                 lbIDUpdate();

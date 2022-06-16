@@ -87,9 +87,26 @@ namespace CapaDatos
             return listempleados;
         }
 
-        public string ExactData()
+
+        public static List<Empleado> Buscar(string palabra) 
         {
-            return string.Format("{0},{1},{2},Empleado,{3}",ID,Apellido,Nombre,AreaTra);
+            List<Empleado> resultado=new List<Empleado> ();
+            foreach(Empleado i in listempleados) 
+            {
+                if ((i.id.Contains(palabra))|| (i.nombre.Contains(palabra)) || (i.apellido.Contains(palabra))
+                    || (i.areatra.Contains(palabra)))
+                {
+                    resultado.Add(i);
+                }
+                else
+                {
+                    return resultado;
+                }
+            }
+            return resultado;
         }
+        
+
     }
+
 }
