@@ -108,3 +108,4 @@ F:\TP2-RamaModify\TP2\obj\Debug\TP2.FrmEmp.resources
 F:\TP2-RamaModify\TP2\obj\Debug\TP2.FrmJefe.resources
 F:\TP2-RamaModify\TP2\obj\Debug\TP2.Properties.Resources.resources
 F:\TP2-RamaModify\TP2\obj\Debug\Interfaz.csproj.GenerateResource.Cache
+D:\jebus\TP2\TP2\obj\Debug\TP2.FrmProy.resources
