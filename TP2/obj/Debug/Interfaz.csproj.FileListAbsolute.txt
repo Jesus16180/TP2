@@ -71,7 +71,6 @@ D:\jebus\TP2\TP2\bin\Debug\CapaDatos.dll
 D:\jebus\TP2\TP2\bin\Debug\FontAwesome.Sharp.dll
 D:\jebus\TP2\TP2\bin\Debug\CapaDatos.pdb
 D:\jebus\TP2\TP2\obj\Debug\Interfaz.csprojResolveAssemblyReference.cache
-D:\jebus\TP2\TP2\obj\Debug\TP2.FrmClint.resources
 D:\jebus\TP2\TP2\obj\Debug\TP2.Frmpal.resources
 D:\jebus\TP2\TP2\obj\Debug\TP2.FrmArTra.resources
 D:\jebus\TP2\TP2\obj\Debug\TP2.FrmEmp.resources

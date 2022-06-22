@@ -16,7 +16,7 @@ namespace TP2
         string charers = "1234567890qwertyuiopasdfghjklñzxcvbnm";
         int id = 0;
         string idprint;
-        Proyecto proy;
+        public Proyecto proy;
 
         public FrmProy()
         {
