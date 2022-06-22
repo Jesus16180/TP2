@@ -16,6 +16,7 @@ namespace TP2
         string charers = "1234567890qwertyuiopasdfghjklñzxcvbnm";
         int id = 0;
         string idprint;
+        Proyecto proy;
 
         public FrmProy()
         {
@@ -28,8 +29,8 @@ namespace TP2
                 (cBJef.Text.Intersect(charers).Count() > 0) || (tBNom.Text.Intersect(charers).Count() > 0) ||
                 (tbAp.Text.Intersect(charers).Count() > 0) || (tBTel.Text.Intersect(charers).Count() > 0))
             {
-                Emp = new Empleado(lbIDEmp.Text, tBNom.Text, tBAp.Text, tBCUIL.Text, tBTel.Text, cBArTra.Text, cBIDJef.Text);
-                Emp.Guardar();
+                proy = new Proyecto(lbIDProy.Text, tBProj.Text, Convert.ToDecimal(tBCost.Text), cBJef.Text, Convert.ToInt32(nUDDE.Value), tBNom.Text, tbAp.Text, tBTel.Text);
+                proy.Guardar();
                 lbIDUpdate();
             }
             else

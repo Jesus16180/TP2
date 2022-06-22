@@ -43,8 +43,8 @@
             this.lbJef = new System.Windows.Forms.Label();
             this.lbEstDate = new System.Windows.Forms.Label();
             this.nUDDE = new System.Windows.Forms.NumericUpDown();
-            this.bVolverCliente = new FontAwesome.Sharp.IconButton();
-            this.bSubDatCliente = new FontAwesome.Sharp.IconButton();
+            this.bVolverProy = new FontAwesome.Sharp.IconButton();
+            this.bSubDatProy = new FontAwesome.Sharp.IconButton();
             this.lbID = new System.Windows.Forms.Label();
             this.lbIDProy = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nUDDE)).BeginInit();
@@ -77,44 +77,44 @@
             // lbNom
             // 
             this.lbNom.AutoSize = true;
-            this.lbNom.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNom.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNom.Location = new System.Drawing.Point(345, 73);
             this.lbNom.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbNom.Name = "lbNom";
-            this.lbNom.Size = new System.Drawing.Size(113, 12);
+            this.lbNom.Size = new System.Drawing.Size(98, 13);
             this.lbNom.TabIndex = 6;
             this.lbNom.Text = "Nombre del cliente:";
             // 
             // lbAp
             // 
             this.lbAp.AutoSize = true;
-            this.lbAp.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbAp.Location = new System.Drawing.Point(367, 115);
             this.lbAp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbAp.Name = "lbAp";
-            this.lbAp.Size = new System.Drawing.Size(53, 12);
+            this.lbAp.Size = new System.Drawing.Size(47, 13);
             this.lbAp.TabIndex = 7;
             this.lbAp.Text = "Apellido:";
             // 
             // lbProj
             // 
             this.lbProj.AutoSize = true;
-            this.lbProj.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProj.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbProj.Location = new System.Drawing.Point(24, 67);
             this.lbProj.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbProj.Name = "lbProj";
-            this.lbProj.Size = new System.Drawing.Size(58, 12);
+            this.lbProj.Size = new System.Drawing.Size(52, 13);
             this.lbProj.TabIndex = 8;
             this.lbProj.Text = "Proyecto:";
             // 
             // lbCost
             // 
             this.lbCost.AutoSize = true;
-            this.lbCost.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbCost.Location = new System.Drawing.Point(32, 109);
             this.lbCost.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbCost.Name = "lbCost";
-            this.lbCost.Size = new System.Drawing.Size(40, 12);
+            this.lbCost.Size = new System.Drawing.Size(37, 13);
             this.lbCost.TabIndex = 9;
             this.lbCost.Text = "Costo:";
             // 
@@ -129,11 +129,11 @@
             // lbTel
             // 
             this.lbTel.AutoSize = true;
-            this.lbTel.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTel.Location = new System.Drawing.Point(367, 155);
             this.lbTel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbTel.Name = "lbTel";
-            this.lbTel.Size = new System.Drawing.Size(57, 12);
+            this.lbTel.Size = new System.Drawing.Size(52, 13);
             this.lbTel.TabIndex = 12;
             this.lbTel.Text = "Teléfono:";
             // 
@@ -151,28 +151,28 @@
             this.cBJef.Location = new System.Drawing.Point(121, 149);
             this.cBJef.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cBJef.Name = "cBJef";
-            this.cBJef.Size = new System.Drawing.Size(174, 20);
+            this.cBJef.Size = new System.Drawing.Size(174, 21);
             this.cBJef.TabIndex = 14;
             // 
             // lbJef
             // 
             this.lbJef.AutoSize = true;
-            this.lbJef.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbJef.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbJef.Location = new System.Drawing.Point(32, 152);
             this.lbJef.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbJef.Name = "lbJef";
-            this.lbJef.Size = new System.Drawing.Size(32, 12);
+            this.lbJef.Size = new System.Drawing.Size(30, 13);
             this.lbJef.TabIndex = 15;
             this.lbJef.Text = "Jefe:";
             // 
             // lbEstDate
             // 
             this.lbEstDate.AutoSize = true;
-            this.lbEstDate.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbEstDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbEstDate.Location = new System.Drawing.Point(351, 28);
             this.lbEstDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbEstDate.Name = "lbEstDate";
-            this.lbEstDate.Size = new System.Drawing.Size(92, 12);
+            this.lbEstDate.Size = new System.Drawing.Size(83, 13);
             this.lbEstDate.TabIndex = 16;
             this.lbEstDate.Text = "Días estimados:";
             // 
@@ -184,49 +184,49 @@
             this.nUDDE.Size = new System.Drawing.Size(175, 20);
             this.nUDDE.TabIndex = 17;
             // 
-            // bVolverCliente
+            // bVolverProy
             // 
-            this.bVolverCliente.BackColor = System.Drawing.SystemColors.Control;
-            this.bVolverCliente.IconChar = FontAwesome.Sharp.IconChar.ArrowLeft;
-            this.bVolverCliente.IconColor = System.Drawing.Color.Black;
-            this.bVolverCliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.bVolverCliente.IconSize = 32;
-            this.bVolverCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bVolverCliente.Location = new System.Drawing.Point(19, 196);
-            this.bVolverCliente.Margin = new System.Windows.Forms.Padding(0);
-            this.bVolverCliente.Name = "bVolverCliente";
-            this.bVolverCliente.Size = new System.Drawing.Size(100, 40);
-            this.bVolverCliente.TabIndex = 33;
-            this.bVolverCliente.Text = "Volver";
-            this.bVolverCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.bVolverCliente.UseVisualStyleBackColor = false;
-            this.bVolverCliente.Click += new System.EventHandler(this.bVolverCliente_Click);
+            this.bVolverProy.BackColor = System.Drawing.SystemColors.Control;
+            this.bVolverProy.IconChar = FontAwesome.Sharp.IconChar.ArrowLeft;
+            this.bVolverProy.IconColor = System.Drawing.Color.Black;
+            this.bVolverProy.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.bVolverProy.IconSize = 32;
+            this.bVolverProy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bVolverProy.Location = new System.Drawing.Point(19, 196);
+            this.bVolverProy.Margin = new System.Windows.Forms.Padding(0);
+            this.bVolverProy.Name = "bVolverProy";
+            this.bVolverProy.Size = new System.Drawing.Size(100, 40);
+            this.bVolverProy.TabIndex = 33;
+            this.bVolverProy.Text = "Volver";
+            this.bVolverProy.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bVolverProy.UseVisualStyleBackColor = false;
+            this.bVolverProy.Click += new System.EventHandler(this.bVolverCliente_Click);
             // 
-            // bSubDatCliente
+            // bSubDatProy
             // 
-            this.bSubDatCliente.BackColor = System.Drawing.SystemColors.Control;
-            this.bSubDatCliente.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
-            this.bSubDatCliente.IconColor = System.Drawing.Color.Black;
-            this.bSubDatCliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.bSubDatCliente.IconSize = 32;
-            this.bSubDatCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bSubDatCliente.Location = new System.Drawing.Point(512, 196);
-            this.bSubDatCliente.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.bSubDatCliente.Name = "bSubDatCliente";
-            this.bSubDatCliente.Size = new System.Drawing.Size(135, 41);
-            this.bSubDatCliente.TabIndex = 32;
-            this.bSubDatCliente.Text = "Cargar cliente";
-            this.bSubDatCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bSubDatCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.bSubDatCliente.UseVisualStyleBackColor = false;
-            this.bSubDatCliente.Click += new System.EventHandler(this.bSubDatCliente_Click);
+            this.bSubDatProy.BackColor = System.Drawing.SystemColors.Control;
+            this.bSubDatProy.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
+            this.bSubDatProy.IconColor = System.Drawing.Color.Black;
+            this.bSubDatProy.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.bSubDatProy.IconSize = 32;
+            this.bSubDatProy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bSubDatProy.Location = new System.Drawing.Point(512, 196);
+            this.bSubDatProy.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.bSubDatProy.Name = "bSubDatProy";
+            this.bSubDatProy.Size = new System.Drawing.Size(135, 41);
+            this.bSubDatProy.TabIndex = 32;
+            this.bSubDatProy.Text = "Cargar proyecto";
+            this.bSubDatProy.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bSubDatProy.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.bSubDatProy.UseVisualStyleBackColor = false;
+            this.bSubDatProy.Click += new System.EventHandler(this.bSubDatCliente_Click);
             // 
             // lbID
             // 
             this.lbID.AutoSize = true;
             this.lbID.Location = new System.Drawing.Point(45, 28);
             this.lbID.Name = "lbID";
-            this.lbID.Size = new System.Drawing.Size(19, 12);
+            this.lbID.Size = new System.Drawing.Size(21, 13);
             this.lbID.TabIndex = 34;
             this.lbID.Text = "ID:";
             // 
@@ -235,20 +235,20 @@
             this.lbIDProy.AutoSize = true;
             this.lbIDProy.Location = new System.Drawing.Point(144, 28);
             this.lbIDProy.Name = "lbIDProy";
-            this.lbIDProy.Size = new System.Drawing.Size(106, 12);
+            this.lbIDProy.Size = new System.Drawing.Size(96, 13);
             this.lbIDProy.TabIndex = 35;
             this.lbIDProy.Text = "//auto_incremento";
             // 
             // FrmProy
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(669, 259);
             this.Controls.Add(this.lbIDProy);
             this.Controls.Add(this.lbID);
-            this.Controls.Add(this.bVolverCliente);
-            this.Controls.Add(this.bSubDatCliente);
+            this.Controls.Add(this.bVolverProy);
+            this.Controls.Add(this.bSubDatProy);
             this.Controls.Add(this.nUDDE);
             this.Controls.Add(this.lbEstDate);
             this.Controls.Add(this.lbJef);
@@ -263,7 +263,7 @@
             this.Controls.Add(this.tBProj);
             this.Controls.Add(this.tbAp);
             this.Controls.Add(this.tBNom);
-            this.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "FrmProy";
@@ -289,8 +289,8 @@
         private System.Windows.Forms.Label lbJef;
         private System.Windows.Forms.Label lbEstDate;
         private System.Windows.Forms.NumericUpDown nUDDE;
-        private FontAwesome.Sharp.IconButton bSubDatCliente;
-        private FontAwesome.Sharp.IconButton bVolverCliente;
+        private FontAwesome.Sharp.IconButton bSubDatProy;
+        private FontAwesome.Sharp.IconButton bVolverProy;
         private System.Windows.Forms.Label lbID;
         private System.Windows.Forms.Label lbIDProy;
     }

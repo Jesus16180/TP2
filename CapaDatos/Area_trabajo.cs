@@ -20,7 +20,7 @@ namespace CapaDatos
 
         public Area_trabajo()
         {
-            this.areatra = "";
+            this.areatra = "n/area";
         }
 
         public Area_trabajo(string unareatra)

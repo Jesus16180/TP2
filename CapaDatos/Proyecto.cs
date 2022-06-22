@@ -6,17 +6,18 @@ using System.Threading.Tasks;
 
 namespace CapaDatos
 {
-    class Proyecto
+    public class Proyecto
     {
+        private string id;
         private string nom;
         private string apellido;
         private string telefono;
         private string proy;
-        private float cost;
-        public string jef;
-        private decimal diasest;
+        private decimal cost;
+        public Jefe jef;
+        private int diasest;
         
-        public static List<Proyecto> listclint = new List<Proyecto>();
+        public static List<Proyecto> listproy = new List<Proyecto>();
 
         public string Nom 
         {
@@ -42,18 +43,18 @@ namespace CapaDatos
             set { proy = value; }
         }
 
-        public float Cost { 
+        public decimal Cost { 
         get { return cost; }
         set { cost = value; }
         }
 
-        public string Jef 
+        public Jefe Jef 
         {
             get { return jef; }
             set { jef = value; }
         }
 
-        public decimal Diasest
+        public int Diasest
         {
             get { return diasest; }
             set { diasest = value; }
@@ -66,35 +67,47 @@ namespace CapaDatos
             this.telefono = "";
             this.proy = "";
             this.cost = 0;
-            this.jef = "";
+            
             this.diasest = 0;
         }
 
-        public Proyecto(string nom, string apellido, string telefono, string proy, float cost, string jef, decimal diasest)
+        public Proyecto(string id, string proy, decimal cost, string jef, int diasest, string nom, string apellido, string telefono)
         { 
           this.nom = nom;
             this.apellido=apellido;
             this.telefono=telefono;
             this.proy=proy;
             this.cost=cost;
-            this.jef=jef;
+            this.jef=buscarj(jef);
             this.diasest = diasest;
+        }
+        public static Jefe buscarj(string jef)
+        {
+            Jefe r=new Jefe();
+            foreach(Jefe i in Jefe.Buscar())
+            {
+                if(i.ID==jef)
+                {
+                    r = i;
+                }
+            }
+            return r;
         }
 
         public void Guardar() 
         {
-            listclint.Add(this);
+            listproy.Add(this);
         }
 
-        public List<Proyecto> Buscar() 
+        public static List<Proyecto> Buscar() 
         {
-            return listclint;
+            return listproy;
         }
 
         public static List<Proyecto> Buscar(string palabra)
         {
             List<Proyecto> resultado = new List<Proyecto>();
-            foreach (Proyecto i in listclint)
+            foreach (Proyecto i in listproy)
             {
                 if ((i.nom.Contains(palabra)))
                 {
